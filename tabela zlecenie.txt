@@ -1,0 +1,7 @@
+CREATE TABLE zlecenia (
+	Id_zlecenia serial PRIMARY KEY,
+	ID_kupującego NOT NULL,
+	ID_produktu NOT NULL,
+	termin date NOT NULL,
+	czy_zrealizowano boolean NOT NULL
+);
